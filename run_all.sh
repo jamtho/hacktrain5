@@ -1,5 +1,5 @@
 #!/bin/bash
 
-python hvaccontrol_server.py &
-python staffapp_server.py    &
-python tinkercatch_server.py &
+python /app/staffapp_server.py    &
+python /app/tinkercatch_server.py &
+python /app/hvaccontrol_server.py
